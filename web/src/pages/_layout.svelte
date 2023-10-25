@@ -4,7 +4,7 @@
   </script>
   
   <main>
-    <header class="bg-blue-500 text-white py-2 sticky top-0">
+    <header class="bg-blue-500 text-white py-2 sticky top-0 z-50">
         <Navbar />
     </header>
   

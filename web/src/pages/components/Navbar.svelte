@@ -14,7 +14,7 @@
     <nav class="hidden md:block">
       <ul class="flex space-x-6">
         <li><a href="/" class="hover:underline text-white bold">Home</a></li>   
-        <li><a href="/Courses" class="hover:underline text-white bold">Courses</a></li>
+        <li><a href="/courses" class="hover:underline text-white bold">Courses</a></li>
 
         <li><a href="/about" class="hover:underline text-white bold">About</a></li>
         <li><a href="/blog" class="hover:underline text-white bold">Blog</a></li>

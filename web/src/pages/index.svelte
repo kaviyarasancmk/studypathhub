@@ -2,7 +2,6 @@
 	import GetStarted from './about/GetStarted.svelte';
 	import KeyFeatures from './about/KeyFeatures.svelte';
 	import AboutPathHub from './about/AboutPathHub.svelte';
-  import Courses from './Courses/index.svelte'
 </script>
 
 <main>
@@ -27,7 +26,5 @@
   <KeyFeatures />
 
   <GetStarted />
-
-  <Courses />
   
 </main>

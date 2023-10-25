@@ -4,7 +4,7 @@
       <div class="max-w-3xl text-center">
         <h1 class="text-5xl font-extrabold leading-tight mb-4">Choose Your Future</h1>
         <p class="text-xl mb-8">Explore, Plan, and Shape Your Educational Journey</p>
-        <a href="/courses/explorer" class="bg-blue-600 text-white px-8 py-3 text-lg font-semibold rounded-full transition duration-300 hover:bg-blue-700 hover:shadow-lg hover:underline">Get Started</a>
+        <a href="/courses/educationlevel" class="bg-blue-600 text-white px-8 py-3 text-lg font-semibold rounded-full transition duration-300 hover:bg-blue-700 hover:shadow-lg hover:underline">Get Started</a>
       </div>
 
       <!-- Attractive Content -->

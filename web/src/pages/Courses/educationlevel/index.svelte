@@ -1,46 +1,46 @@
 <!-- EducationLevel.svelte -->
 <script>
   let educationLevels = [
-    {
-      title: "Pre-Primary Education",
-      description: "Playgroup, Nursery, Kindergarten",
-      subjectlink: "/courses/subject/preprimarysub", 
-      link: "/courses/educationlevel/preprimary",
-    },
-    {
-      title: "Primary Education",
-      description: "Classes 1 to 5",
-      subjectlink: "/courses/subject/primarysub", 
-      link: "/courses/educationlevel/primary",
-    },
-    {
-      title: "Upper Primary Education",
-      description: "Classes 6 to 8",
-      subjectlink: "/courses/subject/upperprimarysub", 
-      link: "/courses/educationlevel/upperprimary",
-    },
+    // {
+    //   title: "Pre-Primary Education",
+    //   description: "Playgroup, Nursery, Kindergarten",
+    //   subjectlink: "/courses/subject/preprimarysub", 
+    //   link: "/courses/educationlevel/preprimary",
+    // },
+    // {
+    //   title: "Primary Education",
+    //   description: "Classes 1 to 5",
+    //   subjectlink: "/courses/subject/primarysub", 
+    //   link: "/courses/educationlevel/primary",
+    // },
+    // {
+    //   title: "Upper Primary Education",
+    //   description: "Classes 6 to 8",
+    //   subjectlink: "/courses/subject/upperprimarysub", 
+    //   link: "/courses/educationlevel/upperprimary",
+    // },
     {
       title: "Secondary Education",
       description: "Classes 9 and 10",
-      subjectlink: "/courses/subject/secondarysub", 
+      subjectlink: "/courses/educationlevel/secondary/secondarysub",
       link: "/courses/educationlevel/secondary",
     },
     {
       title: "Higher Secondary Education",
       description: "Classes 11 and 12",
-      subjectlink: "/courses/educationlevel/highersecondary/highersecondarygroup", 
+      subjectlink: "/courses/educationlevel/highersecondary/highersecondarysub", 
       link: "/courses/educationlevel/highersecondary",
     },
     {
       title: "Undergraduate Education",
       description: "Bachelor's Degrees in various fields",
-      subjectlink: "/courses/subject", 
+      subjectlink: "/courses/educationlevel/undergraduate/undergraduatesub", 
       link: "/courses/educationlevel/undergraduate",
     },
     {
       title: "Postgraduate Education",
       description: "Master's Degrees in various fields",
-      subjectlink: "/courses/subject", 
+      subjectlink: "/courses/educationlevel/postgraduate/postgraduatesub",
       link: "/courses/educationlevel/postgraduate",
     },
     {
@@ -195,7 +195,6 @@
           </a>
           <p class="text-gray-600 mb-4">{level.description}</p>
           <ul class="flex flex-wrap items-center justify-start text-xs text-gray-600">
-            <!-- You can add more details or links if needed -->
           </ul>
         </div>
       {/each}

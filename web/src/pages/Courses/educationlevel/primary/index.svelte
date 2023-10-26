@@ -4,27 +4,32 @@
     {
       title: "Upper Primary Education",
       description: "Progress to classes 6 to 8 for more in-depth learning and skill development.",
-      link: "/upper-primary-education",
+      subjectlink: "/courses/subject/upperprimarysub",
+      link: "/courses/educationlevel/upperprimary",
     },
     {
       title: "Higher Secondary Education",
       description: "Choose a stream—Science, Commerce, or Arts—for specialized learning in classes 11 and 12.",
-      link: "/higher-secondary-education",
+      subjectlink: "/courses/subject/",
+       link: "/higher-secondary-education",
     },
     {
       title: "Diploma Programs",
       description: "Explore short-term diploma courses for specialized knowledge and skills.",
-      link: "/diploma-programs",
+      subjectlink: "/courses/subject/",
+       link: "/diploma-programs",
     },
     {
       title: "Vocational Education",
       description: "Consider vocational courses to acquire practical skills for specific careers.",
-      link: "/vocational-education",
+      subjectlink: "/courses/subject/",
+       link: "/vocational-education",
     },
     {
       title: "Technical Education",
       description: "Pursue technical courses in engineering and technology fields.",
-      link: "/technical-education",
+      subjectlink: "/courses/subject/",
+       link: "/technical-education",
     },
   ];
 
@@ -47,6 +52,10 @@
         <div class="p-6 z-10 font-bold transition transform bg-white border border-blue-600 rounded-lg shadow-lg hover:border-2 hover:border-green-600 hover:scale-105 bg-gradient-radial bg-gradient-to-b hover:from-green-200 hover:to-blue-200">
           <a href={step.link}>
             <h2 class="mb-4 text-2xl font-semibold text-gray-800">{step.title}</h2>
+          </a>
+          <a href={step.subjectlink}>
+          <p class="mb-1 text-xl font-bold text-green-700 no-underline hover:text-purple-800">Subjects:
+          </p>
           </a>
           <p class="text-gray-600 mb-4">{step.description}</p>
           <ul class="flex flex-wrap items-center justify-start text-sm text-gray-600">

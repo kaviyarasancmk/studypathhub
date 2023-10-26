@@ -1,121 +1,84 @@
-<!-- SecondaryEducationNext.svelte -->
 <script>
   let nextSteps = [
     {
-      title: "Higher Secondary Education",
-      description: "Continue with Higher Secondary Education to complete the 10+2 level. Choose a specific stream (Science, Commerce, or Arts) based on career interests.",
-      link: "/higher-secondary-education",
+      title: "Higher Secondary Education (HSE)",
+      description: "After completing Secondary Education, students can opt for Higher Secondary Education (HSE), also known as 11th and 12th grades. They can choose from various streams: Science, Commerce, or Arts, based on their interests and career goals.",
+      subjectlink: "/courses/educationlevel/highersecondary/highersecondarysub", 
+      link: "/courses/educationlevel/highersecondary",
     },
+    
+    {
+      title: "State Board Schools",
+      description: "Many students continue their education in State Board schools, following the Tamil Nadu State Board curriculum. The State Board offers a structured curriculum that prepares students for state-level board exams.",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
+    },
+    
+    {
+      title: "Central Board Schools (CBSE)",
+      description: "Some students may choose to enroll in CBSE-affiliated schools, which follow the Central Board of Secondary Education curriculum. This option can provide a broader perspective and may be suitable for students planning to take national-level entrance exams.",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
+    },
+    
+    {
+      title: "Indian Certificate of Secondary Education (ICSE)",
+      description: "Another option is ICSE-affiliated schools, which offer a more comprehensive curriculum and can be suitable for students who plan to study abroad or in institutions following the ICSE curriculum.",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
+    },
+    
+    {
+      title: "Vocational Education",
+      description: "Tamil Nadu offers vocational courses at the higher secondary level. Students interested in specific trades can choose vocational education and gain skills in fields like IT, healthcare, or agriculture.",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
+    },
+    
     {
       title: "Diploma Courses",
-      description: "Enroll in diploma programs in various fields like engineering, computer science, or vocational courses.",
-      link: "/diploma-programs",
+      description: "After completing Secondary Education, students can opt for diploma courses in various fields such as engineering, nursing, or paramedical sciences. These courses offer specialized training and can lead to job opportunities.",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
     },
+    
     {
-      title: "Polytechnic Courses",
-      description: "Pursue polytechnic courses that focus on practical skills and technical education.",
-      link: "/polytechnic-courses",
+      title: "Professional Degree Programs",
+      description: "Students can pursue undergraduate degree programs in fields like engineering, medicine, law, or business by taking competitive entrance exams like Tamil Nadu Engineering Admissions (TNEA), National Eligibility cum Entrance Test (NEET), or Common Law Admission Test (CLAT).",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
     },
+    
     {
-      title: "Certificate Courses",
-      description: "Explore short-term certificate courses in specialized areas.",
-      link: "/certificate-courses",
+      title: "Arts and Science Colleges",
+      description: "Many colleges in Tamil Nadu offer undergraduate degree programs in arts, science, and commerce. Students can apply to these colleges based on their Higher Secondary exam scores.",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
     },
+    
     {
-      title: "Medical Courses",
-      description: "Prepare for medical entrance exams to secure admission in courses like MBBS, BDS, Nursing, and allied health sciences.",
-      link: "/medical-courses",
-    },
-    {
-      title: "Engineering Courses",
-      description: "Prepare for engineering entrance exams to enroll in undergraduate engineering programs.",
-      link: "/engineering-courses",
-    },
-    {
-      title: "Commerce Courses",
-      description: "Opt for commerce courses like B.Com or pursue professional courses like Chartered Accountancy (CA) or Company Secretary (CS).",
-      link: "/commerce-courses",
-    },
-    {
-      title: "Arts and Humanities Courses",
-      description: "Choose courses related to humanities and liberal arts, such as Bachelor of Arts (BA) in subjects like history, literature, or sociology.",
-      link: "/arts-humanities-courses",
-    },
-    {
-      title: "Vocational Courses",
-      description: "Explore vocational education and skill development programs.",
-      link: "/vocational-courses",
-    },
-    {
-      title: "Computer Science and IT Courses",
-      description: "Pursue courses in computer science, information technology, and software development.",
-      link: "/computer-science-courses",
-    },
-    {
-      title: "Language Courses",
-      description: "Learn additional languages or specialize in languages like French, German, or Spanish.",
-      link: "/language-courses",
-    },
-    {
-      title: "Business and Management Courses",
-      description: "Pursue courses in business administration, management, and entrepreneurship.",
-      link: "/business-management-courses",
-    },
-    {
-      title: "Fine Arts and Design Courses",
-      description: "Explore courses in fine arts, graphic design, or fashion design.",
-      link: "/fine-arts-courses",
-    },
-    {
-      title: "Law Courses",
-      description: "Prepare for law entrance exams to enroll in LLB (Bachelor of Laws) programs.",
-      link: "/law-courses",
-    },
-    {
-      title: "Environmental Science and Sustainability Courses",
-      description: "Study environmental science and sustainability-related courses.",
-      link: "/environmental-courses",
-    },
-    {
-      title: "Social Sciences Courses",
-      description: "Opt for social science courses, including psychology, sociology, and political science.",
-      link: "/social-sciences-courses",
-    },
-    {
-      title: "Aviation and Aerospace Courses",
-      description: "Pursue courses in aerospace engineering, aviation management, or pilot training.",
-      link: "/aviation-courses",
-    },
-    {
-      title: "Mass Communication and Journalism Courses",
-      description: "Choose courses in journalism, media studies, and communication.",
-      link: "/journalism-courses",
-    },
-    {
-      title: "Hotel Management and Tourism Courses",
-      description: "Enroll in courses related to hospitality management and tourism.",
-      link: "/hotel-management-courses",
-    },
-    {
-      title: "Sports and Physical Education Courses",
-      description: "Pursue courses in physical education and sports management.",
-      link: "/sports-education-courses",
+      title: "Government vs. Private Institutions",
+      description: "Students should consider whether to pursue their education in government or private institutions, taking into account factors such as fees, faculty quality, and available facilities.",
+      subjectlink: "/courses/subject/",
+      link: "/courses/educationlevel/",
     },
   ];
 
   let extraTips = [
-    "Set clear academic goals and create a study schedule for Classes 11 and 12.",
-    "Explore the specialized streams to align your studies with your career interests.",
-    "Participate in extracurricular activities to develop a well-rounded skill set.",
-    "Stay informed about entrance exams and university admission requirements.",
-    "Seek guidance from teachers, mentors, and career counselors for career planning.",
+    "Research career options and fields of interest to choose the appropriate stream and subjects in Higher Secondary Education.",
+    "Set academic goals and work consistently to achieve good results in board exams.",
+    "Seek guidance from teachers, counselors, and career advisors to make informed decisions about your future studies.",
+    "Be aware of the various entrance exams required for professional degree programs and start preparing early if you plan to pursue them.",
+    "Explore scholarship opportunities and financial aid to support your higher education.",
+    "Consider your long-term career goals when deciding between government and private institutions.",
+    "Stay updated on changes in the education system and syllabus to make informed choices."
   ];
 </script>
 
 <div class="flex items-center justify-center p-10 bg-gradient-to-b from-green-100 to-blue-100">
   <main class="container">
     <h2 class="py-3 mb-6 text-4xl font-extrabold text-center text-white rounded-lg shadow-lg bg-gradient-to-r from-blue-200 via-lime-400 to-blue-500">
-      What's Next After Secondary Education?
+      Higher Secondary Education and Beyond
     </h2>
     <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
       {#each nextSteps as step (step.title)}
@@ -123,15 +86,18 @@
           <a href={step.link}>
             <h2 class="mb-4 text-2xl font-semibold text-gray-800">{step.title}</h2>
           </a>
+          <a href={step.subjectlink}>
+          <p class="mb-1 text-xl font-bold text-green-700 no-underline hover:text-purple-800">Subjects:
+          </p>
+          </a>
           <p class="text-gray-600 mb-4">{step.description}</p>
           <ul class="flex flex-wrap items-center justify-start text-sm text-gray-600">
-            <!-- You can add more details or links if needed -->
           </ul>
         </div>
       {/each}
     </div>
     <div class="mt-8">
-      <h3 class="text-xl font-semibold text-gray-800">Extra Tips:</h3>
+      <h3 class="text-xl font-semibold text-gray-800">Tips for Planning Your Educational Journey</h3>
       <ul class="list-disc list-inside text-gray-600">
         {#each extraTips as tip (tip)}
           <li>{tip}</li>

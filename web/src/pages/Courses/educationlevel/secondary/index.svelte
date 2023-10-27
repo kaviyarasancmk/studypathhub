@@ -1,103 +1,162 @@
 <script>
-  let nextSteps = [
+  let head = "Education and Career Paths in Tamil Nadu";
+  let state = "Tamil Nadu";
+  let nextpath = [
     {
-      title: "Higher Secondary Education (HSE)",
-      description: "After completing Secondary Education, students can opt for Higher Secondary Education (HSE), also known as 11th and 12th grades. They can choose from various streams: Science, Commerce, or Arts, based on their interests and career goals.",
-      subjectlink: "/courses/educationlevel/highersecondary/highersecondarysub", 
+      title: "Higher Secondary",
+      description: "Students can enroll in the Higher Secondary courses, which are equivalent to 11th and 12th grades. This is the traditional path to pursue further education and is a prerequisite for many degree programs. Upon successful completion, students can take entrance exams or apply for undergraduate programs.",
       link: "/courses/educationlevel/highersecondary",
+      subjectlink: "#higher-secondary-subjects",
+      joblink: "#higher-secondary-jobs",
+      advantage: "#higher-secondary-advantages",
+      disadvantage: "#higher-secondary-disadvantages",
     },
-    
-    {
-      title: "State Board Schools",
-      description: "Many students continue their education in State Board schools, following the Tamil Nadu State Board curriculum. The State Board offers a structured curriculum that prepares students for state-level board exams.",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
-    },
-    
-    {
-      title: "Central Board Schools (CBSE)",
-      description: "Some students may choose to enroll in CBSE-affiliated schools, which follow the Central Board of Secondary Education curriculum. This option can provide a broader perspective and may be suitable for students planning to take national-level entrance exams.",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
-    },
-    
-    {
-      title: "Indian Certificate of Secondary Education (ICSE)",
-      description: "Another option is ICSE-affiliated schools, which offer a more comprehensive curriculum and can be suitable for students who plan to study abroad or in institutions following the ICSE curriculum.",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
-    },
-    
-    {
-      title: "Vocational Education",
-      description: "Tamil Nadu offers vocational courses at the higher secondary level. Students interested in specific trades can choose vocational education and gain skills in fields like IT, healthcare, or agriculture.",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
-    },
-    
     {
       title: "Diploma Courses",
-      description: "After completing Secondary Education, students can opt for diploma courses in various fields such as engineering, nursing, or paramedical sciences. These courses offer specialized training and can lead to job opportunities.",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
+      description: "After secondary education, students can opt for diploma courses in various fields such as engineering, polytechnic, paramedical, and others. These courses provide practical skills and technical knowledge and are usually shorter in duration than traditional degree programs.",
+      link: "#diploma-courses",
+      subjectlink: "#diploma-subjects",
+      joblink: "#diploma-jobs",
+      advantage: "#diploma-advantages",
+      disadvantage: "#diploma-disadvantages",
     },
-    
     {
-      title: "Professional Degree Programs",
-      description: "Students can pursue undergraduate degree programs in fields like engineering, medicine, law, or business by taking competitive entrance exams like Tamil Nadu Engineering Admissions (TNEA), National Eligibility cum Entrance Test (NEET), or Common Law Admission Test (CLAT).",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
+      title: "Polytechnic Courses",
+      description: "Polytechnic courses in Tamil Nadu are typically three-year programs that provide specialized technical education in areas like engineering, computer science, and more. These courses offer a mix of theoretical and practical knowledge.",
+      link: "#polytechnic-courses",
+      subjectlink: "#polytechnic-subjects",
+      joblink: "#polytechnic-jobs",
+      advantage: "#polytechnic-advantages",
+      disadvantage: "#polytechnic-disadvantages",
     },
-    
     {
-      title: "Arts and Science Colleges",
-      description: "Many colleges in Tamil Nadu offer undergraduate degree programs in arts, science, and commerce. Students can apply to these colleges based on their Higher Secondary exam scores.",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
+      title: "Paramedical Courses",
+      description: "For those interested in healthcare careers, there are various paramedical courses available, such as nursing, radiology technology, medical laboratory technology, and physiotherapy. These courses are designed to prepare students for careers in the healthcare industry.",
+      link: "#paramedical-courses",
+      subjectlink: "#paramedical-subjects",
+      joblink: "#paramedical-jobs",
+      advantage: "#paramedical-advantages",
+      disadvantage: "#paramedical-disadvantages",
     },
-    
     {
-      title: "Government vs. Private Institutions",
-      description: "Students should consider whether to pursue their education in government or private institutions, taking into account factors such as fees, faculty quality, and available facilities.",
-      subjectlink: "/courses/subject/",
-      link: "/courses/educationlevel/",
+      title: "ITI (Industrial Training Institute) Courses",
+      description: "ITI courses offer training in various trades, including electrician, plumber, mechanic, and more. These courses focus on practical skills and are ideal for students looking to enter skilled trades.",
+      link: "#iti-courses",
+      subjectlink: "#iti-subjects",
+      joblink: "#iti-jobs",
+      advantage: "#iti-advantages",
+      disadvantage: "#iti-disadvantages",
+    },
+    {
+      title: "Vocational Courses",
+      description: "Tamil Nadu offers a range of vocational courses in sectors like hospitality, tourism, fashion design, and more. These courses provide specialized skills for specific industries.",
+      link: "#vocational-courses",
+      subjectlink: "#vocational-subjects",
+      joblink: "#vocational-jobs",
+      advantage: "#vocational-advantages",
+      disadvantage: "#vocational-disadvantages",
+    },
+    {
+      title: "Distance Education",
+      description: "Some universities in Tamil Nadu offer distance education programs for students who may not be able to attend regular classes. These programs often lead to undergraduate or postgraduate degrees.",
+      link: "#distance-education",
+      subjectlink: "#distance-subjects",
+      joblink: "#distance-jobs",
+      advantage: "#distance-advantages",
+      disadvantage: "#distance-disadvantages",
+    },
+    {
+      title: "Certification Courses",
+      description: "There are numerous short-term certification courses available in fields like computer applications, web design, digital marketing, and others. These courses can enhance skills and employability.",
+      link: "#certification-courses",
+      subjectlink: "#certification-subjects",
+      joblink: "#certification-jobs",
+      advantage: "#certification-advantages",
+      disadvantage: "#certification-disadvantages",
+    },
+    {
+      title: "Arts and Crafts Courses",
+      description: "Tamil Nadu has a rich tradition of arts and crafts. Students interested in traditional arts and crafts can pursue courses in these areas, which may include pottery, sculpture, painting, and more.",
+      link: "#arts-and-crafts-courses",
+      subjectlink: "#arts-and-crafts-subjects",
+      joblink: "#arts-and-crafts-jobs",
+      advantage: "#arts-and-crafts-advantages",
+      disadvantage: "#arts-and-crafts-disadvantages",
     },
   ];
 
   let extraTips = [
-    "Research career options and fields of interest to choose the appropriate stream and subjects in Higher Secondary Education.",
-    "Set academic goals and work consistently to achieve good results in board exams.",
-    "Seek guidance from teachers, counselors, and career advisors to make informed decisions about your future studies.",
-    "Be aware of the various entrance exams required for professional degree programs and start preparing early if you plan to pursue them.",
-    "Explore scholarship opportunities and financial aid to support your higher education.",
-    "Consider your long-term career goals when deciding between government and private institutions.",
-    "Stay updated on changes in the education system and syllabus to make informed choices."
+    "Research various educational institutions in Tamil Nadu to find the one that suits your career goals.",
+    "Networking and internships can be instrumental in building your career in the state.",
+    "Stay updated with the latest industry trends and technologies to remain competitive.",
   ];
 </script>
 
-<div class="flex items-center justify-center p-10 bg-gradient-to-b from-green-100 to-blue-100">
+
+
+<div class="p-10 bg-gradient-to-b from-green-100 to-blue-100">
   <main class="container">
-    <h2 class="py-3 mb-6 text-4xl font-extrabold text-center text-white rounded-lg shadow-lg bg-gradient-to-r from-blue-200 via-lime-400 to-blue-500">
-      Higher Secondary Education and Beyond
+    <h2
+      class="py-3 mb-6 text-4xl font-extrabold text-center text-white rounded-lg shadow-lg bg-gradient-to-r from-blue-200 via-lime-400 to-blue-500"
+    >
+      {head}
     </h2>
     <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-      {#each nextSteps as step (step.title)}
-        <div class="p-6 z-10 font-bold transition transform bg-white border border-blue-600 rounded-lg shadow-lg hover:border-2 hover:border-green-600 hover:scale-105 bg-gradient-radial bg-gradient-to-b hover:from-green-200 hover:to-blue-200">
-          <a href={step.link}>
-            <h2 class="mb-4 text-2xl font-semibold text-gray-800">{step.title}</h2>
+      {#each nextpath as level (level.title)}
+        <div
+          class="p-6 font-bold transition transform bg-white border border-blue-600 rounded-lg shadow-lg hover:border-2 hover:border-green-600 hover:scale-105 bg-gradient-radial bg-gradient-to-b hover:from-green-200 hover:to-blue-200"
+        >
+          <a href={level.link}>
+            <h2
+              class="mb-3 text-2xl font-semibold text-gray-800 underline-offset-2"
+            >
+              {level.title}
+            </h2>
           </a>
-          <a href={step.subjectlink}>
-          <p class="mb-1 text-xl font-bold text-green-700 no-underline hover:text-purple-800">Subjects:
-          </p>
-          </a>
-          <p class="text-gray-600 mb-4">{step.description}</p>
-          <ul class="flex flex-wrap items-center justify-start text-sm text-gray-600">
-          </ul>
+          <div class="flex justify-between mb-2">
+            <a href={level.subjectlink}>
+              <p
+                class="mb-1 font-bold text-sky-600 no-underline hover:text-purple-800"
+              >
+                Subjects:
+              </p>
+            </a>
+            <a href={level.joblink}>
+              <p
+                class="mb-1 font-bold text-sky-600 no-underline hover:text-purple-800"
+              >
+                Advantage:
+              </p>
+            </a>
+            <a href={level.advantage}>
+              <p
+                class="mb-1 font-bold text-sky-600 no-underline hover:text-purple-800"
+              >
+                Disadvantage:
+              </p>
+            </a>
+            <a href={level.disadvantage}>
+              <p
+                class="mb-1 font-bold text-sky-600 no-underline hover:text-purple-800"
+              >
+                Jobs:
+              </p>
+            </a>
+          </div>
+          <div>
+            <p
+              class="flex flex-wrap items-center justify-start text-xs text-justify font-semibold text-gray-600"
+            >
+              {level.description}
+            </p>
+          </div>
         </div>
       {/each}
     </div>
     <div class="mt-8">
-      <h3 class="text-xl font-semibold text-gray-800">Tips for Planning Your Educational Journey</h3>
+      <h3 class="text-xl font-semibold text-gray-800">
+        Preparing for Your Educational and Career Journey:
+      </h3>
       <ul class="list-disc list-inside text-gray-600">
         {#each extraTips as tip (tip)}
           <li>{tip}</li>

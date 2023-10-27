@@ -1,48 +1,5 @@
-<script>
-  let head = "Education and Career Paths in Tamil Nadu";
-  let state = "Tamil Nadu";
-  let nextpath = [
-    
-    {
-      title: "Postgraduate Studies",
-      description: "After completing undergraduate education, students can further specialize and enhance their skills and knowledge through postgraduate studies.",
-      link: "/courses/educationlevel/postgraduate",
-      subjectlink: "#postgraduate-studies-subjects",
-      joblink: "#postgraduate-studies-jobs",
-      advantage: "#postgraduate-studies-advantages",
-      disadvantage: "#postgraduate-studies-disadvantages",
-    },
-    {
-      title: "Master's Degree",
-      description: "Many students opt to pursue a Master's degree in their field of study. This allows for specialization and in-depth knowledge acquisition.",
-      link: "#masters-degree",
-      subjectlink: "#masters-degree-subjects",
-      joblink: "#masters-degree-jobs",
-      advantage: "#masters-degree-advantages",
-      disadvantage: "#masters-degree-disadvantages",
-    },
-    {
-      title: "MBA (Master of Business Administration)",
-      description: "For those interested in business and management, an MBA program can provide leadership and management skills.",
-      link: "#mba",
-      subjectlink: "#mba-subjects",
-      joblink: "#mba-jobs",
-      advantage: "#mba-advantages",
-      disadvantage: "#mba-disadvantages",
-    },
-  ];
 
-  let extraTips = [
-    "Self-Assessment: Identify strengths, weaknesses, interests, and long-term career objectives.",
-    "Research: Explore the specific requirements and expectations of each pathway.",
-    "Networking: Connect with professionals and alumni to gain insights and guidance.",
-    "Entrance Exams: Prepare for and take any necessary entrance exams.",
-    "Financial Planning: Understand the cost of education and seek financial aid or scholarships when applicable.",
-    "Continuing Education: Stay updated on industry trends and continuously seek opportunities for skill enhancement.",
-  ];
-</script>
 
-  
 <div class="p-10 bg-gradient-to-b from-green-100 to-blue-100">
   <main class="container">
     <h2

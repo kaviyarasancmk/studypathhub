@@ -16,9 +16,9 @@
         <li><a href="/" class="hover:underline text-white bold">Home</a></li>   
         <li><a href="/courses" class="hover:underline text-white bold">Courses</a></li>
 
-        <li><a href="/about" class="hover:underline text-white bold">About</a></li>
-        <li><a href="/blog" class="hover:underline text-white bold">Blog</a></li>
-        <li><a href="/contact" class="hover:underline text-white bold">Contact</a></li>
+        <li><a href="/components/about" class="hover:underline text-white bold">About</a></li>
+        <li><a href="/components/blog" class="hover:underline text-white bold">Blog</a></li>
+        <li><a href="/components/contact" class="hover:underline text-white bold">Contact</a></li>
       </ul>
     </nav>
 
@@ -27,8 +27,8 @@
       <div class="mr-6">
 
         {#if login === false}
-            <a href="/Signup" class="hover:underline">Sign Up</a>
-            <a href="/Login" class="hover:underline">Login</a>
+            <a href="/components/signup" class="hover:underline">Sign Up</a>
+            <a href="/components/login" class="hover:underline">Login</a>
           {:else}
             <a href="/account" class="hover:underline">My Account</a>
           {/if}

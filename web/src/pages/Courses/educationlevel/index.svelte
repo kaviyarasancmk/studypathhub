@@ -1,5 +1,5 @@
 <script>
-  import Indexdesign from "../../themes/indexdesign.svelte";
+  import Indexdesign from "../../../template/indexdesign.svelte";
 
   let nextpathData = {
     head: "What's Your Education Level",

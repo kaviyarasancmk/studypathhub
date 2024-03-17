@@ -1,4 +1,3 @@
-<script>
   export const majorStyles = {
     container: "container mx-auto p-6",
     heading: "text-3xl font-semibold text-blue-600 mb-6",
@@ -10,4 +9,4 @@
     subjectTitle: "text-xl font-semibold text-purple-600 mb-4",
     subjectDescription: "text-gray-700 text-sm",
   };
-</script>
+  export const navLink = "py-2 px-4 bg-gray-200 font-bold rounded hover:bg-gray-100 hover:border-b-2 border-blue-300 transition duration-300 hover:no-underline";

@@ -29,29 +29,29 @@
     };
   </script>
   
-  <main class="p-10 flex items-center justify-center bg-gradient-to-r from-purple-300 via-pink-200 to-yellow-300">
-    <div class="max-w-md w-full p-6 bg-white rounded-lg shadow-lg">
+  <main class="min-h-screen bg-gradient-to-br from-purple-600 via-purple-500 to-pink-500 flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
+    <div class="bg-white w-full max-w-md p-6 rounded-lg shadow-lg">
       <h2 class="text-3xl font-semibold text-center mb-4 text-gray-800">Login</h2>
       <form>
         <div class="mb-4">
           <label for="email" class="text-gray-700 font-medium">Email</label>
-          <input type="email" id="email" class="form-input" placeholder="youremail@example.com" bind:value={email} />
-          <p class="text-red-500 text-sm mt-2">{errors.email}</p>
+          <input type="email" id="email" class="form-input mt-2 block w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500" placeholder="youremail@example.com" bind:value={email} />
+          <p class="text-red-500 text-sm mt-1">{errors.email}</p>
         </div>
         <div class="mb-4">
           <label for="password" class="text-gray-700 font-medium">Password</label>
-          <input type="password" id="password" class="form-input" placeholder="********" bind:value={password} />
-          <p class="text-red-500 text-sm mt-2">{errors.password}</p>
+          <input type="password" id="password" class="form-input mt-2 block w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-purple-500" placeholder="********" bind:value={password} />
+          <p class="text-red-500 text-sm mt-1">{errors.password}</p>
         </div>
         <button
-          class="w-full bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 text-white rounded-lg p-3 hover:from-blue-700 hover:via-blue-800 hover:to-blue-900 focus:outline-none transform hover:scale-105"
+          class="w-full bg-gradient-to-r from-blue-600 via-blue-700 to-blue-800 text-white rounded-lg p-3 hover:from-blue-700 hover:via-blue-800 hover:to-blue-900 focus:outline-none transform hover:scale-105 transition duration-300"
           on:click={handleLogin}
         >
           Login
         </button>
       </form>
       <p class="text-center mt-4">
-        Don't have an account? <a href="/components/signup" class="text-blue-600 hover:underline">Sign Up</a>
+        If you don't have an account? <a href="/components/signup" class="text-blue-600 hover:underline">Sign Up</a>
       </p>
     </div>
   </main>

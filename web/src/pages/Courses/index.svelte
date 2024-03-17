@@ -2,7 +2,7 @@
   <section class="py-12 text-white bg-gradient-to-br from-blue-600 via-purple-500 to-pink-500" style="height: 75vh;">
     <div class="container mx-auto flex flex-col justify-center items-center h-full">
       <div class="max-w-3xl text-center">
-        <h1 class="text-5xl font-extrabold leading-tight mb-4">Choose Your Future Plan</h1>
+        <h1 class="text-5xl font-extrabold leading-tight mb-4">explore Your Future Plan</h1>
         <p class="text-xl mb-8">Explore, Plan, and Shape Your Educational Journey</p>
         <a href="/courses/educationlevel" class="bg-blue-600 text-white px-8 py-3 text-lg font-semibold rounded-full transition duration-300 hover:bg-blue-700 hover:shadow-lg hover:underline">Get Started</a>
       </div>

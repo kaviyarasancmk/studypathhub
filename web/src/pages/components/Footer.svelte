@@ -4,16 +4,16 @@
       <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
       <ul>
         <li><a href="/" class="hover:text-blue-500">Home</a></li>
-        <li><a href="/components/about" class="hover:text-blue-500">About</a></li>
+        <li><a href="/landingPages/knowMoreUs" class="hover:text-blue-500">Know More Us</a></li>
         <li><a href="/components/contact" class="hover:text-blue-500">Contact</a></li>
-      </ul>
+      </ul> 
     </div>
     <div class="col-span-2 md:col-span-1">
       <h3 class="text-lg font-semibold mb-4">Resources</h3>
       <ul>
-        <li><a href="/components/blog" class="hover:text-blue-500">Blog</a></li>
-        <li><a href="/components/explore" class="hover:text-blue-500">Courses</a></li>
-        <li><a href="/components/faq" class="hover:text-blue-500">FAQ</a></li>
+        <li><a href="/landingPages/blog" class="hover:text-blue-500">Blog</a></li>
+        <li><a href="/landingPages/resourcesReview" class="hover:text-blue-500">Resources</a></li>
+        <li><a href="/landingPages/faq" class="hover:text-blue-500">FAQ</a></li>
       </ul>
     </div>
     <div class="col-span-2 md:col-span-1">

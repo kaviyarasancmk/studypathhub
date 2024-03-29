@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.8
- * File generated Fri Mar 29 2024 22:30:15 GMT+0530 (India Standard Time)
+ * File generated Sat Mar 30 2024 02:18:52 GMT+0530 (India Standard Time)
  */
 
 export const __version = "2.18.8"
-export const __timestamp = "2024-03-29T17:00:15.822Z"
+export const __timestamp = "2024-03-29T20:48:52.926Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -87,56 +87,6 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "blog.svelte",
-          "filepath": "/components/blog.svelte",
-          "name": "blog",
-          "ext": "svelte",
-          "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/blog.svelte",
-          "importPath": "../src/pages/components/blog.svelte",
-          "isLayout": false,
-          "isReset": false,
-          "isIndex": false,
-          "isFallback": false,
-          "isPage": true,
-          "ownMeta": {},
-          "meta": {
-            "recursive": true,
-            "preload": false,
-            "prerender": true
-          },
-          "path": "/components/blog",
-          "id": "_components_blog",
-          "component": () => import('../src/pages/components/blog.svelte').then(m => m.default)
-        },
-        {
-          "isFile": true,
-          "isDir": false,
-          "file": "careerResources.svelte",
-          "filepath": "/components/careerResources.svelte",
-          "name": "careerResources",
-          "ext": "svelte",
-          "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/careerResources.svelte",
-          "importPath": "../src/pages/components/careerResources.svelte",
-          "isLayout": false,
-          "isReset": false,
-          "isIndex": false,
-          "isFallback": false,
-          "isPage": true,
-          "ownMeta": {},
-          "meta": {
-            "recursive": true,
-            "preload": false,
-            "prerender": true
-          },
-          "path": "/components/careerResources",
-          "id": "_components_careerResources",
-          "component": () => import('../src/pages/components/careerResources.svelte').then(m => m.default)
-        },
-        {
-          "isFile": true,
-          "isDir": false,
           "file": "communityForum.svelte",
           "filepath": "/components/communityForum.svelte",
           "name": "communityForum",
@@ -212,13 +162,13 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "knowMoreAs.svelte",
-          "filepath": "/components/knowMoreAs.svelte",
-          "name": "knowMoreAs",
+          "file": "landingNavBar.svelte",
+          "filepath": "/components/landingNavBar.svelte",
+          "name": "landingNavBar",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/knowMoreAs.svelte",
-          "importPath": "../src/pages/components/knowMoreAs.svelte",
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/landingNavBar.svelte",
+          "importPath": "../src/pages/components/landingNavBar.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": false,
@@ -230,9 +180,9 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/components/knowMoreAs",
-          "id": "_components_knowMoreAs",
-          "component": () => import('../src/pages/components/knowMoreAs.svelte').then(m => m.default)
+          "path": "/components/landingNavBar",
+          "id": "_components_landingNavBar",
+          "component": () => import('../src/pages/components/landingNavBar.svelte').then(m => m.default)
         },
         {
           "isFile": true,
@@ -262,13 +212,13 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "Navbar.svelte",
-          "filepath": "/components/Navbar.svelte",
-          "name": "Navbar",
+          "file": "navbar.svelte",
+          "filepath": "/components/navbar.svelte",
+          "name": "navbar",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/Navbar.svelte",
-          "importPath": "../src/pages/components/Navbar.svelte",
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/navbar.svelte",
+          "importPath": "../src/pages/components/navbar.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": false,
@@ -280,20 +230,20 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/components/Navbar",
-          "id": "_components_Navbar",
-          "component": () => import('../src/pages/components/Navbar.svelte').then(m => m.default)
+          "path": "/components/navbar",
+          "id": "_components_navbar",
+          "component": () => import('../src/pages/components/navbar.svelte').then(m => m.default)
         },
         {
           "isFile": true,
           "isDir": false,
-          "file": "Recommendations.svelte",
-          "filepath": "/components/Recommendations.svelte",
-          "name": "Recommendations",
+          "file": "recommendations.svelte",
+          "filepath": "/components/recommendations.svelte",
+          "name": "recommendations",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/Recommendations.svelte",
-          "importPath": "../src/pages/components/Recommendations.svelte",
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/components/recommendations.svelte",
+          "importPath": "../src/pages/components/recommendations.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": false,
@@ -305,9 +255,9 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/components/Recommendations",
-          "id": "_components_Recommendations",
-          "component": () => import('../src/pages/components/Recommendations.svelte').then(m => m.default)
+          "path": "/components/recommendations",
+          "id": "_components_recommendations",
+          "component": () => import('../src/pages/components/recommendations.svelte').then(m => m.default)
         },
         {
           "isFile": true,
@@ -1213,6 +1163,80 @@ export const _tree = {
       "path": "/courses"
     },
     {
+      "isFile": false,
+      "isDir": true,
+      "file": "dashboard",
+      "filepath": "/dashboard",
+      "name": "dashboard",
+      "ext": "",
+      "badExt": false,
+      "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "index.svelte",
+          "filepath": "/dashboard/index.svelte",
+          "name": "index",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/index.svelte",
+          "importPath": "../src/pages/dashboard/index.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": true,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/index",
+          "id": "_dashboard_index",
+          "component": () => import('../src/pages/dashboard/index.svelte').then(m => m.default)
+        }
+      ],
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/dashboard"
+    },
+    {
+      "isFile": true,
+      "isDir": false,
+      "file": "global.svelte",
+      "filepath": "/global.svelte",
+      "name": "global",
+      "ext": "svelte",
+      "badExt": false,
+      "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/global.svelte",
+      "importPath": "../src/pages/global.svelte",
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": true,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/global",
+      "id": "_global",
+      "component": () => import('../src/pages/global.svelte').then(m => m.default)
+    },
+    {
       "isFile": true,
       "isDir": false,
       "file": "index.svelte",
@@ -1250,6 +1274,31 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
+          "file": "blog.svelte",
+          "filepath": "/landingPages/blog.svelte",
+          "name": "blog",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/blog.svelte",
+          "importPath": "../src/pages/landingPages/blog.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/landingPages/blog",
+          "id": "_landingPages_blog",
+          "component": () => import('../src/pages/landingPages/blog.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
           "file": "discoverPage.svelte",
           "filepath": "/landingPages/discoverPage.svelte",
           "name": "discoverPage",
@@ -1275,13 +1324,13 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "joinWithUsPage.svelte",
-          "filepath": "/landingPages/joinWithUsPage.svelte",
-          "name": "joinWithUsPage",
+          "file": "faq.svelte",
+          "filepath": "/landingPages/faq.svelte",
+          "name": "faq",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/joinWithUsPage.svelte",
-          "importPath": "../src/pages/landingPages/joinWithUsPage.svelte",
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/faq.svelte",
+          "importPath": "../src/pages/landingPages/faq.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": false,
@@ -1293,9 +1342,34 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/landingPages/joinWithUsPage",
-          "id": "_landingPages_joinWithUsPage",
-          "component": () => import('../src/pages/landingPages/joinWithUsPage.svelte').then(m => m.default)
+          "path": "/landingPages/faq",
+          "id": "_landingPages_faq",
+          "component": () => import('../src/pages/landingPages/faq.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "joinUs.svelte",
+          "filepath": "/landingPages/joinUs.svelte",
+          "name": "joinUs",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/joinUs.svelte",
+          "importPath": "../src/pages/landingPages/joinUs.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/landingPages/joinUs",
+          "id": "_landingPages_joinUs",
+          "component": () => import('../src/pages/landingPages/joinUs.svelte').then(m => m.default)
         },
         {
           "isFile": true,
@@ -1325,13 +1399,13 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "landingNavBar.svelte",
-          "filepath": "/landingPages/landingNavBar.svelte",
-          "name": "landingNavBar",
+          "file": "knowMoreUs.svelte",
+          "filepath": "/landingPages/knowMoreUs.svelte",
+          "name": "knowMoreUs",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/landingNavBar.svelte",
-          "importPath": "../src/pages/landingPages/landingNavBar.svelte",
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/knowMoreUs.svelte",
+          "importPath": "../src/pages/landingPages/knowMoreUs.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": false,
@@ -1343,9 +1417,34 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/landingPages/landingNavBar",
-          "id": "_landingPages_landingNavBar",
-          "component": () => import('../src/pages/landingPages/landingNavBar.svelte').then(m => m.default)
+          "path": "/landingPages/knowMoreUs",
+          "id": "_landingPages_knowMoreUs",
+          "component": () => import('../src/pages/landingPages/knowMoreUs.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "resourcesReview.svelte",
+          "filepath": "/landingPages/resourcesReview.svelte",
+          "name": "resourcesReview",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/resourcesReview.svelte",
+          "importPath": "../src/pages/landingPages/resourcesReview.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/landingPages/resourcesReview",
+          "id": "_landingPages_resourcesReview",
+          "component": () => import('../src/pages/landingPages/resourcesReview.svelte').then(m => m.default)
         },
         {
           "isFile": true,
@@ -1389,26 +1488,26 @@ export const _tree = {
     {
       "isFile": false,
       "isDir": true,
-      "file": "userDashboard",
-      "filepath": "/userDashboard",
-      "name": "userDashboard",
+      "file": "template",
+      "filepath": "/template",
+      "name": "template",
       "ext": "",
       "badExt": false,
-      "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/userDashboard",
+      "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/template",
       "children": [
         {
           "isFile": true,
           "isDir": false,
-          "file": "index.svelte",
-          "filepath": "/userDashboard/index.svelte",
-          "name": "index",
+          "file": "indexdesign.svelte",
+          "filepath": "/template/indexdesign.svelte",
+          "name": "indexdesign",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/userDashboard/index.svelte",
-          "importPath": "../src/pages/userDashboard/index.svelte",
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/template/indexdesign.svelte",
+          "importPath": "../src/pages/template/indexdesign.svelte",
           "isLayout": false,
           "isReset": false,
-          "isIndex": true,
+          "isIndex": false,
           "isFallback": false,
           "isPage": true,
           "ownMeta": {},
@@ -1417,9 +1516,9 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/userDashboard/index",
-          "id": "_userDashboard_index",
-          "component": () => import('../src/pages/userDashboard/index.svelte').then(m => m.default)
+          "path": "/template/indexdesign",
+          "id": "_template_indexdesign",
+          "component": () => import('../src/pages/template/indexdesign.svelte').then(m => m.default)
         }
       ],
       "isLayout": false,
@@ -1433,7 +1532,156 @@ export const _tree = {
         "preload": false,
         "prerender": true
       },
-      "path": "/userDashboard"
+      "path": "/template"
+    },
+    {
+      "isFile": false,
+      "isDir": true,
+      "file": "themes",
+      "filepath": "/themes",
+      "name": "themes",
+      "ext": "",
+      "badExt": false,
+      "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/themes",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "aboutdesign.svelte",
+          "filepath": "/themes/aboutdesign.svelte",
+          "name": "aboutdesign",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/themes/aboutdesign.svelte",
+          "importPath": "../src/pages/themes/aboutdesign.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/themes/aboutdesign",
+          "id": "_themes_aboutdesign",
+          "component": () => import('../src/pages/themes/aboutdesign.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "buttonStyle.svelte",
+          "filepath": "/themes/buttonStyle.svelte",
+          "name": "buttonStyle",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/themes/buttonStyle.svelte",
+          "importPath": "../src/pages/themes/buttonStyle.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/themes/buttonStyle",
+          "id": "_themes_buttonStyle",
+          "component": () => import('../src/pages/themes/buttonStyle.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "jobdesign.svelte",
+          "filepath": "/themes/jobdesign.svelte",
+          "name": "jobdesign",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/themes/jobdesign.svelte",
+          "importPath": "../src/pages/themes/jobdesign.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/themes/jobdesign",
+          "id": "_themes_jobdesign",
+          "component": () => import('../src/pages/themes/jobdesign.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "majordesign.svelte",
+          "filepath": "/themes/majordesign.svelte",
+          "name": "majordesign",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/themes/majordesign.svelte",
+          "importPath": "../src/pages/themes/majordesign.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/themes/majordesign",
+          "id": "_themes_majordesign",
+          "component": () => import('../src/pages/themes/majordesign.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "Template.svelte",
+          "filepath": "/themes/Template.svelte",
+          "name": "Template",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/themes/Template.svelte",
+          "importPath": "../src/pages/themes/Template.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/themes/Template",
+          "id": "_themes_Template",
+          "component": () => import('../src/pages/themes/Template.svelte').then(m => m.default)
+        }
+      ],
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/themes"
     }
   ],
   "isLayout": true,

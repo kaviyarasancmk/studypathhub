@@ -1,5 +1,5 @@
-<footer class="bg-gray-900 text-white py-12">
-  <div class="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+<footer class="bg-gray-900 text-white py-12 p-4">
+  <div class="container grid grid-cols-2 md:grid-cols-4 gap-8">
     <div class="col-span-2 md:col-span-1">
       <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
       <ul>

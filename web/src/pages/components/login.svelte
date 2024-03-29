@@ -30,7 +30,7 @@
   </script>
   
   <main class="min-h-screen bg-gradient-to-br from-purple-600 via-purple-500 to-pink-500 flex items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
-    <div class="bg-white w-full max-w-md p-6 rounded-lg shadow-lg">
+    <div class="bg-white w-full max-w-md p-6 rounded-lg shadow-lg m-4">
       <h2 class="text-3xl font-semibold text-center mb-4 text-gray-800">Login</h2>
       <form>
         <div class="mb-4">
@@ -51,7 +51,7 @@
         </button>
       </form>
       <p class="text-center mt-4">
-        If you don't have an account? <a href="/components/signup" class="text-blue-600 hover:underline">Sign Up</a>
+        Don't have an account? <a href="/components/signup" class="text-blue-600 hover:underline">Sign Up</a>
       </p>
     </div>
   </main>

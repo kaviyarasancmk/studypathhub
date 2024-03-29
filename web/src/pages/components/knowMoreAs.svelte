@@ -1,7 +1,7 @@
 <!-- About.svelte -->
 <script>
-  let projectTitle = "ProspectPath: Guiding Your Journey to Academic and Career Success";
-  let projectDescription = "ProspectPath is a user-friendly educational website designed to empower students, providing them with a roadmap to academic and career success. We are committed to helping students make informed decisions about their education and future by offering a comprehensive platform filled with interactive tools and a supportive community.";
+  let projectTitle = "Study Path Hub: Guiding Your Journey to Academic and Career Success";
+  let projectDescription = "Study Path Hub is a user-friendly educational website designed to empower students, providing them with a roadmap to academic and career success. We are committed to helping students make informed decisions about their education and future by offering a comprehensive platform filled with interactive tools and a supportive community.";
 
   let projectGoals = [
     "To guide students through their academic and career paths with a structured curriculum tree.",
@@ -14,7 +14,7 @@
 </script>
 
 <main class="p-4">
-  <div class="bg-gradient-to-b from-blue-500 to-blue-300 py-16 text-white text-center rounded-lg shadow-lg">
+  <div class="p-4 bg-gradient-to-b from-blue-500 to-blue-300 py-16 text-white text-center rounded-lg shadow-lg">
     <h1 class="text-4xl md:text-5xl font-bold mb-4">{projectTitle}</h1>
     <p class="text-lg max-w-2xl mx-auto leading-7">{projectDescription}</p>
   </div>

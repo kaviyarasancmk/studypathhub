@@ -1,16 +1,5 @@
-<section class="bg-gray-100 py-16">
-  <div class="container mx-auto text-center">
-      <!-- Large and Bold Heading -->
-      <h2 class="text-4xl font-extrabold leading-tight text-gray-800 mb-8">
-          Discover and Plan Your Educational Journey
-      </h2>
-
-      <!-- Description -->
-      <p class="text-xl text-gray-600">
-          Study Path Hub is your personalized guide to success in the world of education. Our structured curriculum tree empowers you to navigate your educational journey effortlessly. Whether you're considering academic programs or exploring exciting career prospects, we've got you covered.
-      </p>
-
-      <!-- Features -->
+<section class="bg-gray-100 ">
+  <div class="bg-gray-100 p-10 gradient-border container mx-auto text-center">
       <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white p-6 rounded-lg shadow-md">
               <h3 class="text-xl font-semibold text-blue-500 mb-2">Comprehensive Curriculum</h3>
@@ -51,3 +40,12 @@
       </div>
   </div>
 </section>
+
+<style>
+.gradient-border {
+    border-width: 4px;
+    border-top: 0px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #3b82f6, #805ad5) 1;
+  }
+</style>

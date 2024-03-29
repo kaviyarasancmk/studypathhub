@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.svelte"],
   theme: {
     extend: {},
   },
@@ -8,6 +8,4 @@ module.exports = {
   purge: {
     content: ['./src/**/*.svelte'],
   },
-  
-}
-
+};

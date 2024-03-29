@@ -1,18 +1,14 @@
 <script>
-	import GetStarted from './about/getStarted.svelte';
-  import KeyFeatures from './about/keyFeatures.svelte'
-	import Discover from './about/discover.svelte';
-	import WellcomePage from './about/wellcomePage.svelte';
+	import WellcomePage from './landingPages/wellcomePage.svelte';
+	import DiscoverPage from './landingPages/discoverPage.svelte';
+  import KeyFeaturesPage from './landingPages/keyFeaturesPage.svelte'
+	import JoinWithUsPage from './landingPages/joinWithUsPage.svelte';
 </script>
 
 <main>
-
   <WellcomePage />
+  <DiscoverPage />
+  <KeyFeaturesPage />
+  <JoinWithUsPage />
 
-  <Discover />
-
-  <KeyFeatures />
-
-  <GetStarted />
-  
 </main>

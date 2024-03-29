@@ -1,9 +1,4 @@
-<!-- KeyFeatures.svelte -->
-<script>
-  // You can add JavaScript logic here if needed
-</script>
-
-<section class="bg-gradient-to-r from-purple-500 to-blue-500 py-16">
+<section class="bg-gradient-to-b from-purple-500 to-blue-500 py-16">
   <div class="container mx-auto text-center">
     <!-- Large and Bold Heading -->
     <h2 class="text-4xl font-extrabold leading-tight text-white mb-8">

@@ -6,8 +6,8 @@
   /* Add Tailwind CSS classes here */
 </style>
 
-<main class="bg-gray-100 min-h-screen py-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32">
-  <div class="max-w-4xl mx-auto">
+<main class="text-white min-h-screen bg-gradient-to-t from-purple-500 to-blue-500 flex flex-col justify-center items-center p-4">
+  <div class="bg-gray-100 min-h-screen py-8 px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 max-w-4xl mx-4 text-justify">
     <section class="mb-8">
       <h1 class="text-4xl md:text-5xl font-bold leading-tight text-gray-900 mb-4">Empowering Students: Study Path Hub - A Comprehensive Educational Platform</h1>
       <p class="text-lg text-gray-700 mb-6">Synopsis</p>

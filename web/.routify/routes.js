@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.8
- * File generated Sat Mar 30 2024 02:18:52 GMT+0530 (India Standard Time)
+ * File generated Sun Mar 31 2024 23:33:42 GMT+0530 (India Standard Time)
  */
 
 export const __version = "2.18.8"
-export const __timestamp = "2024-03-29T20:48:52.926Z"
+export const __timestamp = "2024-03-31T18:03:42.916Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -1101,31 +1101,6 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "index.svelte",
-          "filepath": "/courses/index.svelte",
-          "name": "index",
-          "ext": "svelte",
-          "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/courses/index.svelte",
-          "importPath": "../src/pages/courses/index.svelte",
-          "isLayout": false,
-          "isReset": false,
-          "isIndex": true,
-          "isFallback": false,
-          "isPage": true,
-          "ownMeta": {},
-          "meta": {
-            "recursive": true,
-            "preload": false,
-            "prerender": true
-          },
-          "path": "/courses/index",
-          "id": "_courses_index",
-          "component": () => import('../src/pages/courses/index.svelte').then(m => m.default)
-        },
-        {
-          "isFile": true,
-          "isDir": false,
           "file": "sample.html",
           "filepath": "/courses/sample.html",
           "name": "sample",
@@ -1173,6 +1148,153 @@ export const _tree = {
       "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard",
       "children": [
         {
+          "isFile": false,
+          "isDir": true,
+          "file": "academicNews",
+          "filepath": "/dashboard/academicNews",
+          "name": "academicNews",
+          "ext": "",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/academicNews",
+          "children": [
+            {
+              "isFile": true,
+              "isDir": false,
+              "file": "index.svelte",
+              "filepath": "/dashboard/academicNews/index.svelte",
+              "name": "index",
+              "ext": "svelte",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/academicNews/index.svelte",
+              "importPath": "../src/pages/dashboard/academicNews/index.svelte",
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": true,
+              "isFallback": false,
+              "isPage": true,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/dashboard/academicNews/index",
+              "id": "_dashboard_academicNews_index",
+              "component": () => import('../src/pages/dashboard/academicNews/index.svelte').then(m => m.default)
+            }
+          ],
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/academicNews"
+        },
+        {
+          "isFile": false,
+          "isDir": true,
+          "file": "careerResources",
+          "filepath": "/dashboard/careerResources",
+          "name": "careerResources",
+          "ext": "",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/careerResources",
+          "children": [
+            {
+              "isFile": true,
+              "isDir": false,
+              "file": "index.svelte",
+              "filepath": "/dashboard/careerResources/index.svelte",
+              "name": "index",
+              "ext": "svelte",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/careerResources/index.svelte",
+              "importPath": "../src/pages/dashboard/careerResources/index.svelte",
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": true,
+              "isFallback": false,
+              "isPage": true,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/dashboard/careerResources/index",
+              "id": "_dashboard_careerResources_index",
+              "component": () => import('../src/pages/dashboard/careerResources/index.svelte').then(m => m.default)
+            }
+          ],
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/careerResources"
+        },
+        {
+          "isFile": false,
+          "isDir": true,
+          "file": "chatForum",
+          "filepath": "/dashboard/chatForum",
+          "name": "chatForum",
+          "ext": "",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/chatForum",
+          "children": [
+            {
+              "isFile": true,
+              "isDir": false,
+              "file": "index.svelte",
+              "filepath": "/dashboard/chatForum/index.svelte",
+              "name": "index",
+              "ext": "svelte",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/chatForum/index.svelte",
+              "importPath": "../src/pages/dashboard/chatForum/index.svelte",
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": true,
+              "isFallback": false,
+              "isPage": true,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/dashboard/chatForum/index",
+              "id": "_dashboard_chatForum_index",
+              "component": () => import('../src/pages/dashboard/chatForum/index.svelte').then(m => m.default)
+            }
+          ],
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/chatForum"
+        },
+        {
           "isFile": true,
           "isDir": false,
           "file": "index.svelte",
@@ -1196,6 +1318,130 @@ export const _tree = {
           "path": "/dashboard/index",
           "id": "_dashboard_index",
           "component": () => import('../src/pages/dashboard/index.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "oldiindex.svelte",
+          "filepath": "/dashboard/oldiindex.svelte",
+          "name": "oldiindex",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/oldiindex.svelte",
+          "importPath": "../src/pages/dashboard/oldiindex.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/oldiindex",
+          "id": "_dashboard_oldiindex",
+          "component": () => import('../src/pages/dashboard/oldiindex.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "pageLoadContainer.svelte",
+          "filepath": "/dashboard/pageLoadContainer.svelte",
+          "name": "pageLoadContainer",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/pageLoadContainer.svelte",
+          "importPath": "../src/pages/dashboard/pageLoadContainer.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/pageLoadContainer",
+          "id": "_dashboard_pageLoadContainer",
+          "component": () => import('../src/pages/dashboard/pageLoadContainer.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "sideBar.svelte",
+          "filepath": "/dashboard/sideBar.svelte",
+          "name": "sideBar",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/sideBar.svelte",
+          "importPath": "../src/pages/dashboard/sideBar.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/sideBar",
+          "id": "_dashboard_sideBar",
+          "component": () => import('../src/pages/dashboard/sideBar.svelte').then(m => m.default)
+        },
+        {
+          "isFile": false,
+          "isDir": true,
+          "file": "tutorials",
+          "filepath": "/dashboard/tutorials",
+          "name": "tutorials",
+          "ext": "",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/tutorials",
+          "children": [
+            {
+              "isFile": true,
+              "isDir": false,
+              "file": "index.svelte",
+              "filepath": "/dashboard/tutorials/index.svelte",
+              "name": "index",
+              "ext": "svelte",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/dashboard/tutorials/index.svelte",
+              "importPath": "../src/pages/dashboard/tutorials/index.svelte",
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": true,
+              "isFallback": false,
+              "isPage": true,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/dashboard/tutorials/index",
+              "id": "_dashboard_tutorials_index",
+              "component": () => import('../src/pages/dashboard/tutorials/index.svelte').then(m => m.default)
+            }
+          ],
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/dashboard/tutorials"
         }
       ],
       "isLayout": false,
@@ -1424,13 +1670,13 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
-          "file": "resourcesReview.svelte",
-          "filepath": "/landingPages/resourcesReview.svelte",
-          "name": "resourcesReview",
+          "file": "recourseReview.svelte",
+          "filepath": "/landingPages/recourseReview.svelte",
+          "name": "recourseReview",
           "ext": "svelte",
           "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/resourcesReview.svelte",
-          "importPath": "../src/pages/landingPages/resourcesReview.svelte",
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/landingPages/recourseReview.svelte",
+          "importPath": "../src/pages/landingPages/recourseReview.svelte",
           "isLayout": false,
           "isReset": false,
           "isIndex": false,
@@ -1442,9 +1688,9 @@ export const _tree = {
             "preload": false,
             "prerender": true
           },
-          "path": "/landingPages/resourcesReview",
-          "id": "_landingPages_resourcesReview",
-          "component": () => import('../src/pages/landingPages/resourcesReview.svelte').then(m => m.default)
+          "path": "/landingPages/recourseReview",
+          "id": "_landingPages_recourseReview",
+          "component": () => import('../src/pages/landingPages/recourseReview.svelte').then(m => m.default)
         },
         {
           "isFile": true,
@@ -1484,6 +1730,845 @@ export const _tree = {
         "prerender": true
       },
       "path": "/landingPages"
+    },
+    {
+      "isFile": false,
+      "isDir": true,
+      "file": "recourse",
+      "filepath": "/recourse",
+      "name": "recourse",
+      "ext": "",
+      "badExt": false,
+      "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse",
+      "children": [
+        {
+          "isFile": false,
+          "isDir": true,
+          "file": "educationlevel",
+          "filepath": "/recourse/educationlevel",
+          "name": "educationlevel",
+          "ext": "",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel",
+          "children": [
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "diploma",
+              "filepath": "/recourse/educationlevel/diploma",
+              "name": "diploma",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/diploma",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/diploma/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/diploma/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/diploma/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/diploma/index",
+                  "id": "_recourse_educationlevel_diploma_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/diploma/index.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/diploma"
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "doctoral",
+              "filepath": "/recourse/educationlevel/doctoral",
+              "name": "doctoral",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/doctoral",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "doctoralsub.svelte",
+                  "filepath": "/recourse/educationlevel/doctoral/doctoralsub.svelte",
+                  "name": "doctoralsub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/doctoral/doctoralsub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/doctoral/doctoralsub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/doctoral/doctoralsub",
+                  "id": "_recourse_educationlevel_doctoral_doctoralsub",
+                  "component": () => import('../src/pages/recourse/educationlevel/doctoral/doctoralsub.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/doctoral/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/doctoral/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/doctoral/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/doctoral/index",
+                  "id": "_recourse_educationlevel_doctoral_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/doctoral/index.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/doctoral"
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "highersecondary",
+              "filepath": "/recourse/educationlevel/highersecondary",
+              "name": "highersecondary",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/highersecondary",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "highersecondarysub.svelte",
+                  "filepath": "/recourse/educationlevel/highersecondary/highersecondarysub.svelte",
+                  "name": "highersecondarysub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/highersecondary/highersecondarysub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/highersecondary/highersecondarysub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/highersecondary/highersecondarysub",
+                  "id": "_recourse_educationlevel_highersecondary_highersecondarysub",
+                  "component": () => import('../src/pages/recourse/educationlevel/highersecondary/highersecondarysub.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/highersecondary/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/highersecondary/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/highersecondary/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/highersecondary/index",
+                  "id": "_recourse_educationlevel_highersecondary_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/highersecondary/index.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/highersecondary"
+            },
+            {
+              "isFile": true,
+              "isDir": false,
+              "file": "index.svelte",
+              "filepath": "/recourse/educationlevel/index.svelte",
+              "name": "index",
+              "ext": "svelte",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/index.svelte",
+              "importPath": "../src/pages/recourse/educationlevel/index.svelte",
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": true,
+              "isFallback": false,
+              "isPage": true,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/index",
+              "id": "_recourse_educationlevel_index",
+              "component": () => import('../src/pages/recourse/educationlevel/index.svelte').then(m => m.default)
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "mphil",
+              "filepath": "/recourse/educationlevel/mphil",
+              "name": "mphil",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/mphil",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/mphil/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/mphil/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/mphil/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/mphil/index",
+                  "id": "_recourse_educationlevel_mphil_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/mphil/index.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "mphilsub.svelte",
+                  "filepath": "/recourse/educationlevel/mphil/mphilsub.svelte",
+                  "name": "mphilsub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/mphil/mphilsub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/mphil/mphilsub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/mphil/mphilsub",
+                  "id": "_recourse_educationlevel_mphil_mphilsub",
+                  "component": () => import('../src/pages/recourse/educationlevel/mphil/mphilsub.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/mphil"
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "postdoctoral",
+              "filepath": "/recourse/educationlevel/postdoctoral",
+              "name": "postdoctoral",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/postdoctoral",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/postdoctoral/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/postdoctoral/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/postdoctoral/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/postdoctoral/index",
+                  "id": "_recourse_educationlevel_postdoctoral_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/postdoctoral/index.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "postdoctoralsub.svelte",
+                  "filepath": "/recourse/educationlevel/postdoctoral/postdoctoralsub.svelte",
+                  "name": "postdoctoralsub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/postdoctoral/postdoctoralsub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/postdoctoral/postdoctoralsub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/postdoctoral/postdoctoralsub",
+                  "id": "_recourse_educationlevel_postdoctoral_postdoctoralsub",
+                  "component": () => import('../src/pages/recourse/educationlevel/postdoctoral/postdoctoralsub.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/postdoctoral"
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "postgraduate",
+              "filepath": "/recourse/educationlevel/postgraduate",
+              "name": "postgraduate",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/postgraduate",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/postgraduate/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/postgraduate/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/postgraduate/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/postgraduate/index",
+                  "id": "_recourse_educationlevel_postgraduate_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/postgraduate/index.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "postgraduatesub.svelte",
+                  "filepath": "/recourse/educationlevel/postgraduate/postgraduatesub.svelte",
+                  "name": "postgraduatesub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/postgraduate/postgraduatesub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/postgraduate/postgraduatesub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/postgraduate/postgraduatesub",
+                  "id": "_recourse_educationlevel_postgraduate_postgraduatesub",
+                  "component": () => import('../src/pages/recourse/educationlevel/postgraduate/postgraduatesub.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/postgraduate"
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "secondary",
+              "filepath": "/recourse/educationlevel/secondary",
+              "name": "secondary",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/secondary",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "about.svelte",
+                  "filepath": "/recourse/educationlevel/secondary/about.svelte",
+                  "name": "about",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/secondary/about.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/secondary/about.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/secondary/about",
+                  "id": "_recourse_educationlevel_secondary_about",
+                  "component": () => import('../src/pages/recourse/educationlevel/secondary/about.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/secondary/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/secondary/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/secondary/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/secondary/index",
+                  "id": "_recourse_educationlevel_secondary_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/secondary/index.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "job.svelte",
+                  "filepath": "/recourse/educationlevel/secondary/job.svelte",
+                  "name": "job",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/secondary/job.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/secondary/job.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/secondary/job",
+                  "id": "_recourse_educationlevel_secondary_job",
+                  "component": () => import('../src/pages/recourse/educationlevel/secondary/job.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "major.svelte",
+                  "filepath": "/recourse/educationlevel/secondary/major.svelte",
+                  "name": "major",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/secondary/major.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/secondary/major.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/secondary/major",
+                  "id": "_recourse_educationlevel_secondary_major",
+                  "component": () => import('../src/pages/recourse/educationlevel/secondary/major.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "secondarysub.svelte",
+                  "filepath": "/recourse/educationlevel/secondary/secondarysub.svelte",
+                  "name": "secondarysub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/secondary/secondarysub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/secondary/secondarysub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/secondary/secondarysub",
+                  "id": "_recourse_educationlevel_secondary_secondarysub",
+                  "component": () => import('../src/pages/recourse/educationlevel/secondary/secondarysub.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/secondary"
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "teaching",
+              "filepath": "/recourse/educationlevel/teaching",
+              "name": "teaching",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/teaching",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/teaching/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/teaching/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/teaching/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/teaching/index",
+                  "id": "_recourse_educationlevel_teaching_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/teaching/index.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "teachingsub.svelte",
+                  "filepath": "/recourse/educationlevel/teaching/teachingsub.svelte",
+                  "name": "teachingsub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/teaching/teachingsub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/teaching/teachingsub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/teaching/teachingsub",
+                  "id": "_recourse_educationlevel_teaching_teachingsub",
+                  "component": () => import('../src/pages/recourse/educationlevel/teaching/teachingsub.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/teaching"
+            },
+            {
+              "isFile": false,
+              "isDir": true,
+              "file": "undergraduate",
+              "filepath": "/recourse/educationlevel/undergraduate",
+              "name": "undergraduate",
+              "ext": "",
+              "badExt": false,
+              "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/undergraduate",
+              "children": [
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "index.svelte",
+                  "filepath": "/recourse/educationlevel/undergraduate/index.svelte",
+                  "name": "index",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/undergraduate/index.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/undergraduate/index.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": true,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/undergraduate/index",
+                  "id": "_recourse_educationlevel_undergraduate_index",
+                  "component": () => import('../src/pages/recourse/educationlevel/undergraduate/index.svelte').then(m => m.default)
+                },
+                {
+                  "isFile": true,
+                  "isDir": false,
+                  "file": "undergraduatesub.svelte",
+                  "filepath": "/recourse/educationlevel/undergraduate/undergraduatesub.svelte",
+                  "name": "undergraduatesub",
+                  "ext": "svelte",
+                  "badExt": false,
+                  "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/educationlevel/undergraduate/undergraduatesub.svelte",
+                  "importPath": "../src/pages/recourse/educationlevel/undergraduate/undergraduatesub.svelte",
+                  "isLayout": false,
+                  "isReset": false,
+                  "isIndex": false,
+                  "isFallback": false,
+                  "isPage": true,
+                  "ownMeta": {},
+                  "meta": {
+                    "recursive": true,
+                    "preload": false,
+                    "prerender": true
+                  },
+                  "path": "/recourse/educationlevel/undergraduate/undergraduatesub",
+                  "id": "_recourse_educationlevel_undergraduate_undergraduatesub",
+                  "component": () => import('../src/pages/recourse/educationlevel/undergraduate/undergraduatesub.svelte').then(m => m.default)
+                }
+              ],
+              "isLayout": false,
+              "isReset": false,
+              "isIndex": false,
+              "isFallback": false,
+              "isPage": false,
+              "ownMeta": {},
+              "meta": {
+                "recursive": true,
+                "preload": false,
+                "prerender": true
+              },
+              "path": "/recourse/educationlevel/undergraduate"
+            }
+          ],
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": false,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/recourse/educationlevel"
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "index.svelte",
+          "filepath": "/recourse/index.svelte",
+          "name": "index",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/index.svelte",
+          "importPath": "../src/pages/recourse/index.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": true,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/recourse/index",
+          "id": "_recourse_index",
+          "component": () => import('../src/pages/recourse/index.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "sample.html",
+          "filepath": "/recourse/sample.html",
+          "name": "sample",
+          "ext": "html",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/recourse/sample.html",
+          "importPath": "../src/pages/recourse/sample.html",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/recourse/sample",
+          "id": "_recourse_sample",
+          "component": () => import('../src/pages/recourse/sample.html').then(m => m.default)
+        }
+      ],
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": false,
+        "prerender": true
+      },
+      "path": "/recourse"
     },
     {
       "isFile": false,

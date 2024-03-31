@@ -3,13 +3,12 @@
   import Footer from "./components/footer.svelte";
   import LandingNavBar from './components/landingNavBar.svelte'
   
-  let login = true;
+  let login = false;
 
 </script>
 
 <main>
-  <header class="w-full h-10 sticky top-0 left-0">
-
+  <header class="w-full sticky top-0 left-0">
     {#if login}
     <Navbar />
     {:else}
@@ -17,11 +16,13 @@
     {/if}
   </header>
 
-  <section style="min-height: 80vh;">
+  <section style="min-height: 90vh;">
     <slot />
   </section>
 
-  <footer class="w-full h-10 sticky bottom-0 left-0">
+  {#if !login}
+  <footer class="w-full">
     <Footer />
   </footer>
+  {/if}
 </main>

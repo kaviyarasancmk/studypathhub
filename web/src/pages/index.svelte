@@ -5,7 +5,7 @@
   import JoinWithUsPage from "./landingPages/joinUs.svelte";
   import UserDashboard from "./dashboard/index.svelte";
 
-  let login = true;
+  let login = false;
 
 </script>
 

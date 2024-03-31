@@ -22,7 +22,6 @@
     </p>
   </header>
 
-
   <div class="container mx-auto rounded">
     <div class="flex justify-center items-center">
       {#each titles as title (title)}

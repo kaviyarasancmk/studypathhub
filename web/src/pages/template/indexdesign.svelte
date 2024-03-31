@@ -1,12 +1,10 @@
 <script>
-  // Define the 'nextpathData' prop to receive data from the parent component
   export let nextpathData;
 </script>
 
 <div class="flex items-center justify-center p-10 bg-gradient-to-b from-blue-100 to-green-100">
   <main class="container">
     <h2 class="py-3 mb-6 text-4xl font-extrabold text-center text-white rounded-lg shadow-lg bg-gradient-to-r from-blue-200 via-lime-400 to-blue-500">
-      <!-- Access the 'head' property of 'nextpathData' -->
       {nextpathData.head}
     </h2>
     <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">

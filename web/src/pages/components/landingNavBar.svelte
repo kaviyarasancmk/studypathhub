@@ -48,7 +48,7 @@
     </li>
     <li class={landingNavButton}>
       <a
-        href="/landingPages/resourcesReview"
+        href="/landingPages/recourseReview"
         class="{landingNavLink} {centerButton}"
       >
         <svg

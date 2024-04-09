@@ -21,7 +21,7 @@
   </section>
 
   {#if !login}
-  <footer class="w-full">
+  <footer class="w-full sticky top-0 left-0">
     <Footer />
   </footer>
   {/if}

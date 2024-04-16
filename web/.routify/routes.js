@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.18.8
- * File generated Tue Apr 09 2024 08:08:02 GMT+0530 (India Standard Time)
+ * File generated Tue Apr 16 2024 09:54:51 GMT+0530 (India Standard Time)
  */
 
 export const __version = "2.18.8"
-export const __timestamp = "2024-04-09T02:38:02.293Z"
+export const __timestamp = "2024-04-16T04:24:51.782Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -2534,6 +2534,31 @@ export const _tree = {
         {
           "isFile": true,
           "isDir": false,
+          "file": "getStart.svelte",
+          "filepath": "/resources/getStart.svelte",
+          "name": "getStart",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/resources/getStart.svelte",
+          "importPath": "../src/pages/resources/getStart.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": false,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": false,
+            "prerender": true
+          },
+          "path": "/resources/getStart",
+          "id": "_resources_getStart",
+          "component": () => import('../src/pages/resources/getStart.svelte').then(m => m.default)
+        },
+        {
+          "isFile": true,
+          "isDir": false,
           "file": "index.svelte",
           "filepath": "/resources/index.svelte",
           "name": "index",
@@ -2555,31 +2580,6 @@ export const _tree = {
           "path": "/resources/index",
           "id": "_resources_index",
           "component": () => import('../src/pages/resources/index.svelte').then(m => m.default)
-        },
-        {
-          "isFile": true,
-          "isDir": false,
-          "file": "nextindex.svelte",
-          "filepath": "/resources/nextindex.svelte",
-          "name": "nextindex",
-          "ext": "svelte",
-          "badExt": false,
-          "absolutePath": "G:/miniProject/K PERIYATHAMBI 22PG101CSC009/StudyPathHubCode/web/src/pages/resources/nextindex.svelte",
-          "importPath": "../src/pages/resources/nextindex.svelte",
-          "isLayout": false,
-          "isReset": false,
-          "isIndex": false,
-          "isFallback": false,
-          "isPage": true,
-          "ownMeta": {},
-          "meta": {
-            "recursive": true,
-            "preload": false,
-            "prerender": true
-          },
-          "path": "/resources/nextindex",
-          "id": "_resources_nextindex",
-          "component": () => import('../src/pages/resources/nextindex.svelte').then(m => m.default)
         },
         {
           "isFile": true,

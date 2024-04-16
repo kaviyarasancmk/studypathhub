@@ -1,7 +1,7 @@
 <!-- About.svelte -->
 <script>
-  let projectTitle = "Study Path Hub: Guiding Your Journey to Academic and Career Success";
-  let projectDescription = "Study Path Hub is a user-friendly educational website designed to empower students, providing them with a roadmap to academic and career success. We are committed to helping students make informed decisions about their education and future by offering a comprehensive platform filled with interactive tools and a supportive community.";
+  let projectTitle = "Career Subway: Guiding Your Journey to Academic and Career Success";
+  let projectDescription = "Career Subway is a user-friendly educational website designed to empower students, providing them with a roadmap to academic and career success. We are committed to helping students make informed decisions about their education and future by offering a comprehensive platform filled with interactive tools and a supportive community.";
 
   let projectGoals = [
     "To guide students through their academic and career paths with a structured curriculum tree.",

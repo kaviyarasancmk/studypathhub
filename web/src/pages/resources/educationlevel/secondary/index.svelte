@@ -113,7 +113,7 @@
               {level.title}
             </h2>
           </a>
-          <div class="flex justify-between mb-2">
+          <div class="flex flex-wrap flex-col-3 justify-between mb-2">
             <a href={level.subjectlink}>
               <p
                 class="mb-1 font-bold text-sky-600 no-underline hover:text-purple-800"

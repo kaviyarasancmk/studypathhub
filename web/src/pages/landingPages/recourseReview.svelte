@@ -28,7 +28,7 @@
       Discover Exciting Career Opportunities
     </h2>
 
-    <div class=" m-6 flex items-center justify-between gap-10 mt-6">
+    <div class="flex items-center flex-col justify-between my-6">
       <div>
         <label for="country" class="text-sm font-semibold block">Search or Select a country:</label>
         <input
@@ -83,7 +83,7 @@
     </div>
 
     <div class="mt-10 h-10">
-      <a href="/resources/nextindex" class={startButton}>Get Started</a>
+      <a href="/resources/getStart" class={startButton}>Get Started</a>
     </div>
     
     <TypesofCourses />

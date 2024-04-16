@@ -15,7 +15,7 @@
 >
   <header class="p-10 text-center">
     <h1 class="text-5xl font-extrabold leading-tight text-black">
-      Welcome to <span class="text-white">Study Path Hub</span>
+      Welcome to <span class="text-white">Career Subway</span>
     </h1>
     <p class="mt-4 text-xl">
       Your Personalized Roadmap to Academic and Career Success
@@ -39,7 +39,7 @@
       </h2>
 
       <p class="text-lg text-violet-500 font-semibold text-center p-6">
-        Study Path Hub is your personalized guide to success in the world of
+        Career Subway is your personalized guide to success in the world of
         education. Our structured curriculum tree empowers you to navigate your
         educational journey effortlessly. Whether you're considering academic
         programs or exploring exciting career prospects, we've got you covered.
